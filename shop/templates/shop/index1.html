@@ -64,7 +64,7 @@ padding-right: 0;
                             </div>
                         </div>
                     </div>
-                    {% if forloop.counter|divisibleby:4 and forloop.counter > 0 and not forloop.last %}
+                    {% if forloop.counter|divisibleby:1 and forloop.counter > 0 and not forloop.last %}
                 </div>
                 <div class="carousel-item">
                     {% endif %}
@@ -108,10 +108,10 @@ $('.divpr').on('click', 'button.cart', function() {
     }
     updateCart(cart);
 });
+
 //Add Popover to cart
 $('#popcart').popover();
 updatePopover(cart);
-
 function updatePopover(cart) {
     console.log('We are inside updatePopover');
     var popStr = "";
@@ -171,11 +171,5 @@ $('.divpr').on("click", "button.plus", function() {
     document.getElementById('valpr' + a).innerHTML = cart['pr' + a][0];
     updateCart(cart);
 });
-
-
-
- // ==================== Responsive cards  ============================
-
-
 </script>
 {% endblock %}

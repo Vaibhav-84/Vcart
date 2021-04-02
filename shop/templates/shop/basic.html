@@ -24,7 +24,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="/shop">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" id = "home" href="#" onclick = "mfunction()" >Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="/shop/about">About Us</a>
@@ -61,6 +61,17 @@ sagittis lacus vel augue laoreet rutrum faucibus.">
   crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    
     {% block js %} {% endblock %}
+    <script>
+    function mfunction(){
+       if (window.screen.width < 800) {
+             document.getElementById("home").href="/mshop/mobile"; 
+        } else {
+             document.getElementById("home").href="/shop/"; 
+        }
+    }
+    </script>
   </body>
 </html>
