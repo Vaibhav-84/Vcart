@@ -1,2 +1,32 @@
-# Vcart an E-commerce website (Frontend:-Bootstrap, Backend:- Django)
+# Vcart 
 
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General info
+It's an E-commerce website (Frontend:-Bootstrap, Backend:- Django)
+	
+## Technologies
+Project is created with:
+* Python version: 3.8.3
+* Bootstrap
+* JavaScripts
+
+	
+## Setup
+Clone the project 
+```
+$ git clone  https://github.com/Vaibhav-84/Vcart.git 
+```
+To run the code on your computer
+
+Open CMD in the same directory of manage.py
+```
+$ python manage.py runserver
+```
+Open your browser 
+```
+$ http://127.0.0.1:8000/ 
+```
