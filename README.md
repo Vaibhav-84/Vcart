@@ -23,6 +23,7 @@ Project is created with:
 * Python version: 3.8.3
 * Bootstrap
 * JavaScripts
+* Django
 
 	
 ## Setup
