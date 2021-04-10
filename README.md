@@ -7,7 +7,17 @@
 
 ## General info
 It's an E-commerce website (Frontend:-Bootstrap, Backend:- Django)
-	
+### Home page
+<img src="/vcart-images/1.png" height = 300px width = 600px>
+
+### Check out
+<img src="/vcart-images/3.png" height = 300px width = 600px>
+
+
+### Tracker
+<img src="/vcart-images/5.png" height = 200px width = 400px>
+
+
 ## Technologies
 Project is created with:
 * Python version: 3.8.3
